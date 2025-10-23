@@ -8,6 +8,10 @@ requirements = []
 path = "contracts/pool_creation.clar"
 depends_on = []
 
+[contracts.staking]
+path = "contracts/staking.clar"
+depends_on = []
+
 [repl]
 costs_version = 2
 parser_version = 2
